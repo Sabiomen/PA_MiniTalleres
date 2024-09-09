@@ -4,56 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>elPeriodico</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <div class="barra_arriba"></div>
 
-    <p><small>Precio: 1,50 euros | Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></p>
+        <p class="precio">Precio: 1,50 euros | Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-    <h1>elPeriodico</h1>
-    <h2>Jueves 5</h2>
-    <h3>El Valencia-Milan de la eurología, hoy sin público</h3>
-    <h1>Italia cierra los coles y la universidad por el virus</h1>
+        <div class="header_diario">
+            <h1>elPeriodico</h1>
+            <div class="fecha">
+                <h2>Jueves</h2>
+                <h3>5</h3>
+            </div>
+        </div>
 
-    <table border="0" width="100%">
-        <tr>
-            <td width="40%">
-                <p>Sanidad descarta clausurar escuelas en España porque ahora "No sería útil" contra el contagio.</p>
-                <p>Un vizcaíno de 82 años, el segundo español muerto.</p>
-                <p>Trabajo obligará a las empresas a parar si existe un riesgo grave de contagio.</p>
-            </td>
-            <td width="60%">
-                <img src="imgs/Colosseo_2020.jpg" width="50%">
-            </td>
-        </tr>
-    </table>
+        <h1 class="titulo_principal">Italia cierra los coles y la universidad por el virus</h1>
 
-    <table border="0" width="100%">
-        <tr>
-            <td width="50%">
-                <h4>Biden deja atrás a Sanders y noquea a Bloomberg</h4>
-                <p>El 'supermartes' demócrata catapulta al exvicepresidente.</p>
-            </td>
-            <td width="50%">
-                <small>Crisis azulgrana</small>
+        <div class="contenido">
+            <div class="columna_izquierda">
+                <p><strong>Sanidad</strong> descarta clausurar escuelas en España porque ahora "No sería útil" contra el contagio.</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p class="texto_rojo">Un vizcaíno de 82 años, el segundo español muerto.</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p><strong>Trabajo</strong> obligará a las empresas a parar si existe un riesgo grave de contagio.</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="texto_adicional">
+                    Mascarillas en Roma
+                    <small>Una turista con mascarilla, pasea junto al Coliseo romano, ayer</small>
+                </div>
+            </div>
+            <div class="columna_derecha">
+                <img src="imgs/Colosseo_2020.jpg" alt="Colosseo">
+            </div>
+        </div>
+
+        <div class="articulos">
+            <div class="articulo-biden">
+                <div class="articulo_texto">
+                    <h4>Biden deja atrás a Sanders y noquea a Bloomberg</h4>
+                    <br>
+                    <br>
+                    <br>
+                    <p>El 'supermartes' demócrata catapulta al exvicepresidente.</p>
+                </div>
+    
+                <img src="imgs/Screenshot_2.png" alt="Imagen Biden">
+            </div>
+            <div class="articulo-tension">
+                <div class="titulo_pequeño_articulo">Crisis azulgrana</div>
                 <h4>Tensión disparada en el vestuario y en la junta del Barça</h4>
-                <p>Setién se queda en 50 días sin margen más para errores.</p>
-            </td>
-        </tr>
-    </table>
-
-    <table border="0" width="100%">
-        <tr>
-            <td width="40%">
-                <h4>El Supremo juzga a los usurarios los créditos 'revolving' a más del 20%</h4>
-            </td>
-            <td width="40%">
-                <h4>Sánchez pide a los suyos que pongan freno a la bronca con las iglesias</h4>
-            </td>
-            <td width="20%">
-                <img src="imgs/Screenshot_1.png" width="40%">
-            </td>
-        </tr>
-    </table>
+                <div class="contenido_pequeño_articulo">Setién se queda en 50 días sin margen para más errores.</div>
+            </div>
+            <div class="articulo-supremo">
+                <div>
+                    <h4>El Supremo juzga a los usurarios los créditos 'revolving' a más del 20%</h4>
+                </div>
+                <div>
+                    <h4>Sánchez pide a los suyos que pongan freno a la bronca con las iglesias</h4>
+                </div>
+            </div>
+            <div class="imagen_articulo">
+                <img src="imgs/Screenshot_1.png" alt="Imagen pequeña">
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
