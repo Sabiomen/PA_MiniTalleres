@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ff6815; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_top {
+    display: flex;
+    align-items: right;
+    gap: 10px;
+    justify-content: right;
+    width: 75%;
+}
+
+.header_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 75%;
+}
+
+.logo {
+    flex: 1;
+    text-align: right;
+    margin-right: 100px;
+    height: 100px;
+}
+
+.logo img {
+    width: 230px;
+}
+
+.search-bar {
+    flex: 3;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.iconos_usuario {
+    display: flex;
+    gap: 5px;
+}
+
+.circulo {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.bienvenida, .separador, .nombre_usuario, .triangulo {
+    font-size: 14px;
+}
+
+.carrito {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icono_carrito {
+    font-size: 18px;
+}
+
+.contador_carrito {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+}
+.categorias {
+    background-color: #333; 
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+}
+
+.categoria {
+    font-size: 18px;
+    white-space: pre; 
+}
+
+.content_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.filtro {
+    width: 20%;
+    padding: 20px;
+}
+
+.breadcrumb-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.boton_filtro {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.boton_filtro .btn {
+    width: 48%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.filtro-label {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+.main_content {
+    width: 75%;
+}
+
+.content_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ordenar {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.producto {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card_producto {
+    position: relative;
+    width: 200px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.card_producto img {
+    width: 100%;
+    height: auto;
+}
+
+.card_producto h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.precio_original {
+    font-size: 14px;
+    color: #888;
+}
+
+.precio_descuento {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.btn-add {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.descuento{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 3px;
+}
