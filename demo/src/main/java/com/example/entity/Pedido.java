@@ -31,4 +31,48 @@ public class Pedido {
 
     public Pedido() {
     }
+
+    public Pedido(String descripcion, Cliente cliente, List<Producto> productos) {
+        this.descripcion = descripcion;
+        this.cliente = cliente;
+        this.productos = productos;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    public List<Producto> getProductos() {
+        return productos;
+    }
+
+    public void setProductos(List<Producto> productos) {
+        this.productos = productos;
+    }
+
+    @Override
+    public String toString() {
+        return "Pedido [id=" + id + ", descripcion=" + descripcion + ", cliente=" + cliente + ", productos=" + productos
+                + "]";
+    }
 }
